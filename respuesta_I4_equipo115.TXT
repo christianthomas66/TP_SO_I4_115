@@ -6,3 +6,30 @@ A) Blue
 B) Yellow
 C) Yellow
 D) Quedó el favicon de Beta.
+
+E) Nos equivocamos en el orden y primero pusheo BETA.
+
+Luego al pushear nos encontramos con lo siguiente.
+
+Problemas al hacer el push:
+
+ ! [rejected]        TESTING -> TESTING (fetch first)
+error: failed to push some refs to 'https://github.com/christianthomas66/TP_SO_I4_115.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+hago un git pull:
+
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+G) La solución fue editar manualmente el archivo index.html para
+resolver el conflicto.
+
+H) No lo utilizamos.
+
+I) Hay que hacer un merge de testing en desarrollo (no lo hicimos).
